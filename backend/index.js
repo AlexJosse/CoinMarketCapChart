@@ -41,7 +41,6 @@ app.use((err, _req, res, next) => {
   handleError(err, res, next);
 });
 
-
 const server = http.createServer(app);
 server.listen(port, () => {
     console.log(`Server running on production http://localhost:${port} ...`);
