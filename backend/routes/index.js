@@ -6,6 +6,7 @@ const router = express.Router();
 
 router.get('/wake-up', (_req, res) => res.send('👍'));
 router.use('/collections', collections);
+router.use('/currencies');
 router.use('/auth', auth);
 
 module.exports = router;

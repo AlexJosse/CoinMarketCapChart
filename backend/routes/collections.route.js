@@ -1,8 +1,7 @@
 const express = require('express');
 const {
-    getCollectionsHandler,
-    getProductByCollectionIdHandler,
-} = require('../controllers/collections.controller');
+    getCurrencyTickerHandler,
+} = require('../controllers/currencies.controller');
 
 const router = express.Router();
 
